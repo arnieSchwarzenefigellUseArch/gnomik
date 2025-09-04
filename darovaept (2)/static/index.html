@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор 10→2</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 Калькулятор 10→2</h1>
+        
+        <div class="calculator">
+            <input type="number" id="number" placeholder="Введите число" min="0">
+            <button id="convert">Конвертировать</button>
+            
+            <div id="result" style="display: none;">
+                <p>Десятичное: <span id="decimal"></span></p>
+                <p>Двоичное: <span id="binary"></span></p>
+            </div>
+            
+            <div id="error" style="display: none;"></div>
+        </div>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>
